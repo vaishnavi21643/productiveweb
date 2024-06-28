@@ -1,62 +1,81 @@
-<?php
-session_start();
-include("connect.php");
-
-?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>User Login</title>
-<style>
-    body {
-        font-family: Arial, sans-serif;
-        background-color: #f0f0f0;
-        text-align: center;
-        margin-top: 50px;
-    }
-    .login-container {
-        width: 300px;
-        background-color: #ffffff;
-        padding: 20px;
-        border-radius: 8px;
-        box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
-        margin: auto;
-    }
-    .login-container h2 {
-        margin-bottom: 20px;
-    }
-    .login-container input[type="text"],
-    .login-container input[type="password"] {
-        width: calc(100% - 20px);
-        padding: 10px;
-        margin-bottom: 10px;
-        border: 1px solid #ccc;
-        border-radius: 4px;
-        box-sizing: border-box;
-    }
-    .login-container input[type="submit"] {
-        background-color: #4CAF50;
-        color: white;
-        padding: 10px 20px;
-        border: none;
-        border-radius: 4px;
-        cursor: pointer;
-    }
-    .login-container input[type="submit"]:hover {
-        background-color: #45a049;
-    }
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register & Login</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<div class="login-container">
-    <h2>User Login</h2>
-    <form action="homepage.php" method="post">
-        <input type="text" id="username" name="username" placeholder="Username" required><br>
-        <input type="password" id="password" name="password" placeholder="Password" required><br>
-        <input type="submit" value="Login">
-    </form>
-</div>
+    <div class="container" id="signup" style="display:none;">
+      <h1 class="form-title">Register</h1>
+      <form method="post" action="register.php">
+        <div class="input-group">
+           <i class="fas fa-user"></i>
+           <input type="text" name="fName" id="fName" placeholder="First Name" required>
+           <label for="fname">First Name</label>
+        </div>
+        <div class="input-group">
+            <i class="fas fa-user"></i>
+            <input type="text" name="lName" id="lName" placeholder="Last Name" required>
+            <label for="lName">Last Name</label>
+        </div>
+        <div class="input-group">
+            <i class="fas fa-envelope"></i>
+            <input type="email" name="email" id="email" placeholder="Email" required>
+            <label for="email">Email</label>
+        </div>
+        <div class="input-group">
+            <i class="fas fa-lock"></i>
+            <input type="password" name="password" id="password" placeholder="Password" required>
+            <label for="password">Password</label>
+        </div>
+       <input type="submit" class="btn" value="Sign Up" name="signUp">
+      </form>
+      <p class="or">
+        ----------or--------
+      </p>
+      <div class="icons">
+        <i class="fab fa-google"></i>
+        <i class="fab fa-facebook"></i>
+      </div>
+      <div class="links">
+        <p>Already Have Account ?</p>
+        <button id="signInButton">Sign In</button>
+      </div>
+    </div>
+
+    <div class="container" id="signIn">
+        <h1 class="form-title">Sign In</h1>
+        <form method="post" action="register.php">
+          <div class="input-group">
+              <i class="fas fa-envelope"></i>
+              <input type="email" name="email" id="email" placeholder="Email" required>
+              <label for="email">Email</label>
+          </div>
+          <div class="input-group">
+              <i class="fas fa-lock"></i>
+              <input type="password" name="password" id="password" placeholder="Password" required>
+              <label for="password">Password</label>
+          </div>
+          <p class="recover">
+            <a href="#">Recover Password</a>
+          </p>
+         <input type="submit" class="btn" value="Sign In" name="signIn">
+        </form>
+        <p class="or">
+          ----------or--------
+        </p>
+        <div class="icons">
+          <i class="fab fa-google"></i>
+          <i class="fab fa-facebook"></i>
+        </div>
+        <div class="links">
+          <p>Don't have account yet?</p>
+          <button id="signUpButton">Sign Up</button>
+        </div>
+      </div>
+      <script src="script.js"></script>
 </body>
 </html>
