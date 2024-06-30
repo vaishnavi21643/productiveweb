@@ -81,7 +81,7 @@ include("connect.php");
   padding: 15px; /* 15px padding */
   width: 100px; /* Set a specific width */
   text-decoration: none; /* Remove underline */
-  font-size: 20px; /* Increase font size */
+  font-size: 12px; /* Increase font size */
   color: white; /* White text color */
   border-radius: 0 5px 5px 0; /* Rounded corners on the top right and bottom right side */
 }
@@ -91,26 +91,70 @@ include("connect.php");
 }
 
 /* The about link: 20px from the top with a green background */
-#about {
+#A1 {
   top: 80px;
-  background-color: #04AA6D;
+  background-color: #8ef6e4;
 }
 
-#blog {
-  top: 140px;
-  background-color: #2196F3; /* Blue */
+#A2 {
+  top: 160px;
+  background-color: #9896f1; 
 }
 
-#projects {
-  top: 200px;
-  background-color: #f44336; /* Red */
+#A3 {
+  top: 220px;
+  background-color: #d59bf6; 
 }
 
-#contact {
-  top: 260px;
-  background-color: #555 /* Light Black */
+#A4 {
+  top: 280px;
+  background-color: #edb1f1 ;
 }
-      
+
+#A5 {
+  top: 340px;
+  background-color:  #8ef6e4;
+}
+
+#A6 {
+  top: 400px;
+  background-color:  #9896f1; 
+}
+
+#A7 {
+  top: 460px;
+  background-color:#d59bf6; 
+}
+
+#A8 {
+  top: 520px;
+  background-color: #edb1f1 ;
+}
+/*     
+DROP DOWN CONTENT */
+.dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #fde0f7; /* Light pink background */
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+
+        .dropdown-content a {
+            color: #6a2c70; /* Purple text */
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            text-align: left;
+        }
+
+        .dropdown-content a:hover {
+            background-color: #b19cd9; /* Light purple hover */
+        }
+
+        .navbar li:hover .dropdown-content {
+            display: block;
+        }
     </style>
 </head>
 <body>
@@ -136,20 +180,30 @@ include("connect.php");
         <ul>
             <li><a href="#home">Home</a></li>
             <li><a href="#profile">Profile</a></li>
-            <li><a href="#settings">Settings</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#contact">Contact</a></li>
             <li><a href="logout.php">Logout</a></li>
+            <li><a href="#settings">MORE</a>
             
+                <div class="dropdown-content">
+                    <a href="#link1">FUN QUIZZES</a>
+                    <a href="#link2">SMALL RECIPES!</a>
+                    <a href="#link3">MOTIVATING VLOGS</a>
+                </div>
+            </li>
         </ul>
     </nav>
     
     <div id="mySidenav" class="sidenav">
-  <a href="#" id="about">About</a>
-  <a href="#" id="blog">Blog</a>
-  <a href="#" id="projects">Projects</a>
-  <a href="#" id="contact">Contact</a>
-                    </div>
+  <a href="#" id="A1">POMO-TIMER</a>
+  <a href="#" id="A2">TO-DO LIST</a>
+  <a href="#" id="A3">RECORDER</a>
+  <a href="#" id="A4">BOOKS</a>
+  <a href="#" id="A5">ALARM</a>
+  <a href="#" id="A6">WEATHER</a>
+  <a href="#" id="A7">NOTES</a>
+  <a href="#" id="A8">VISION BOARD</a>
+</div>
        
    
 
