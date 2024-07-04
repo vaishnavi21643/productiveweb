@@ -18,7 +18,7 @@ include("connect.php");
         }
         
         body {
-            background-color: #f9e8f4; /* Light pink background */
+            background-color: black; /* Light pink background */
             color: #6a2c70; /* Purple text */
             line-height: 1.6;
         }
@@ -92,44 +92,82 @@ include("connect.php");
 
 /* The about link: 20px from the top with a green background */
 #A1 {
-  top: 80px;
-  background-color: #8ef6e4;
+    top: 80px;
+    background-color: #8ef6e4;
+    transition: box-shadow 0.3s ease, left 0.3s ease;
+}
+
+#A1:hover {
+    box-shadow: 0 0 20px #bb86fc, 0 0 30px #bb86fc, 0 0 40px #bb86fc;
+    left: 0;
 }
 
 #A2 {
   top: 160px;
   background-color: #9896f1; 
+  transition: box-shadow 0.3s ease, left 0.3s ease;
 }
-
+#A2:hover {
+    box-shadow: 0 0 20px #bb86fc, 0 0 30px #bb86fc, 0 0 40px #bb86fc;
+    left: 0;
+}
 #A3 {
   top: 220px;
   background-color: #d59bf6; 
+  transition: box-shadow 0.3s ease, left 0.3s ease;
+}
+#A3:hover {
+    box-shadow: 0 0 20px #bb86fc, 0 0 30px #bb86fc, 0 0 40px #bb86fc;
+    left: 0;
 }
 
 #A4 {
   top: 280px;
   background-color: #edb1f1 ;
+  transition: box-shadow 0.3s ease, left 0.3s ease;
 }
+#A4:hover {
+    box-shadow: 0 0 20px #bb86fc, 0 0 30px #bb86fc, 0 0 40px #bb86fc;
+    left: 0;
+}
+
 
 #A5 {
   top: 340px;
   background-color:  #8ef6e4;
+  transition: box-shadow 0.3s ease, left 0.3s ease;
 }
-
+#A5:hover {
+    box-shadow: 0 0 20px #bb86fc, 0 0 30px #bb86fc, 0 0 40px #bb86fc;
+    left: 0;
+}
 #A6 {
   top: 400px;
   background-color:  #9896f1; 
+  transition: box-shadow 0.3s ease, left 0.3s ease;
 }
+#A6:hover {
+    box-shadow: 0 0 20px #bb86fc, 0 0 30px #bb86fc, 0 0 40px #bb86fc;
+    left: 0;}
+
 
 #A7 {
   top: 460px;
   background-color:#d59bf6; 
+  transition: box-shadow 0.3s ease, left 0.3s ease;
 }
+#A7:hover {
+    box-shadow: 0 0 20px #bb86fc, 0 0 30px #bb86fc, 0 0 40px #bb86fc;
+    left: 0;}
 
 #A8 {
   top: 520px;
   background-color: #edb1f1 ;
+  transition: box-shadow 0.3s ease, left 0.3s ease;
 }
+#A8:hover {
+    box-shadow: 0 0 20px #bb86fc, 0 0 30px #bb86fc, 0 0 40px #bb86fc;
+    left: 0;}
 /*     
 DROP DOWN CONTENT */
 .dropdown-content {
