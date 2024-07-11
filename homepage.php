@@ -224,7 +224,7 @@ DROP DOWN CONTENT */
             <li><a href="#settings">MORE</a>
             
                 <div class="dropdown-content">
-                    <a href="#link1">FUN QUIZZES</a>
+                    <a href=quiz.py>FUN QUIZZES</a>
                     <a href="#link2">SMALL RECIPES!</a>
                     <a href="#link3">MOTIVATING VLOGS</a>
                 </div>
