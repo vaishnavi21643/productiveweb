@@ -224,7 +224,7 @@ DROP DOWN CONTENT */
             <li><a href="#settings">MORE</a>
             
                 <div class="dropdown-content">
-                    <a href=quiz.py>FUN QUIZZES</a>
+                    <a href=""><iframe src="quiz.html" width="100%" height="600px" frameborder="0"></iframe></a>
                     <a href="#link2">SMALL RECIPES!</a>
                     <a href="#link3">MOTIVATING VLOGS</a>
                 </div>
@@ -236,7 +236,7 @@ DROP DOWN CONTENT */
   <a href="#" id="A1">POMO-TIMER</a>
   <a href="#" id="A2">TO-DO LIST</a>
   <a href="#" id="A3">RECORDER</a>
-  <a href="#" id="A4">BOOKS</a>
+  <a href="library.php" id="A4">LIBRARY</a>
   <a href="#" id="A5">ALARM</a>
   <a href="#" id="A6">WEATHER</a>
   <a href="#" id="A7">NOTES</a>
