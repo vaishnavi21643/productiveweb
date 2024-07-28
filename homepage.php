@@ -21,6 +21,7 @@ include("connect.php");
             background-color: black; /* Light pink background */
             color: #6a2c70; /* Purple text */
             line-height: 1.6;
+            background-image: url("images/50eef1d8-8a27-4670-bce8-c442de015105.jpeg");
         }
         
         .navbar2 {
@@ -45,7 +46,7 @@ include("connect.php");
         
         .navbar {
             top: 20px;
-            background-color: #fde0f7; /* Light pink navbar background */
+            background-color: hsla(282, 94%, 67%, 0.845); /* Light pink navbar background */
             padding: 10px;
             margin-bottom: 20px;
         }
@@ -93,8 +94,9 @@ include("connect.php");
 /* The about link: 20px from the top with a green background */
 #A1 {
     top: 80px;
-    background-color: #8ef6e4;
+    background-color: hsla(343, 95%, 64%, 0.945);
     transition: box-shadow 0.3s ease, left 0.3s ease;
+   
 }
 
 #A1:hover {
@@ -102,10 +104,12 @@ include("connect.php");
     left: 0;
 }
 
+
 #A2 {
   top: 160px;
-  background-color: #9896f1; 
+  background-color: hsla(343, 95%, 64%, 0.945); 
   transition: box-shadow 0.3s ease, left 0.3s ease;
+  
 }
 #A2:hover {
     box-shadow: 0 0 20px #bb86fc, 0 0 30px #bb86fc, 0 0 40px #bb86fc;
@@ -113,8 +117,9 @@ include("connect.php");
 }
 #A3 {
   top: 220px;
-  background-color: #d59bf6; 
+  background-color: hsla(343, 95%, 64%, 0.945); 
   transition: box-shadow 0.3s ease, left 0.3s ease;
+  
 }
 #A3:hover {
     box-shadow: 0 0 20px #bb86fc, 0 0 30px #bb86fc, 0 0 40px #bb86fc;
@@ -123,8 +128,9 @@ include("connect.php");
 
 #A4 {
   top: 280px;
-  background-color: #edb1f1 ;
+  background-color: hsla(343, 95%, 64%, 0.945) ;
   transition: box-shadow 0.3s ease, left 0.3s ease;
+  
 }
 #A4:hover {
     box-shadow: 0 0 20px #bb86fc, 0 0 30px #bb86fc, 0 0 40px #bb86fc;
@@ -134,8 +140,9 @@ include("connect.php");
 
 #A5 {
   top: 340px;
-  background-color:  #8ef6e4;
+  background-color:  hsla(343, 95%, 64%, 0.945);
   transition: box-shadow 0.3s ease, left 0.3s ease;
+  
 }
 #A5:hover {
     box-shadow: 0 0 20px #bb86fc, 0 0 30px #bb86fc, 0 0 40px #bb86fc;
@@ -143,8 +150,9 @@ include("connect.php");
 }
 #A6 {
   top: 400px;
-  background-color:  #9896f1; 
+  background-color: hsla(343, 95%, 64%, 0.945); 
   transition: box-shadow 0.3s ease, left 0.3s ease;
+  
 }
 #A6:hover {
     box-shadow: 0 0 20px #bb86fc, 0 0 30px #bb86fc, 0 0 40px #bb86fc;
@@ -153,8 +161,9 @@ include("connect.php");
 
 #A7 {
   top: 460px;
-  background-color:#d59bf6; 
+  background-color:hsla(343, 95%, 64%, 0.945); 
   transition: box-shadow 0.3s ease, left 0.3s ease;
+  
 }
 #A7:hover {
     box-shadow: 0 0 20px #bb86fc, 0 0 30px #bb86fc, 0 0 40px #bb86fc;
@@ -162,8 +171,9 @@ include("connect.php");
 
 #A8 {
   top: 520px;
-  background-color: #edb1f1 ;
+  background-color: hsla(343, 95%, 64%, 0.945) ;
   transition: box-shadow 0.3s ease, left 0.3s ease;
+  
 }
 #A8:hover {
     box-shadow: 0 0 20px #bb86fc, 0 0 30px #bb86fc, 0 0 40px #bb86fc;
@@ -224,7 +234,7 @@ DROP DOWN CONTENT */
             <li><a href="#settings">MORE</a>
             
                 <div class="dropdown-content">
-                    <a href=""><iframe src="quiz.html" width="100%" height="600px" frameborder="0"></iframe></a>
+                    <a href="">QUIZES</a>
                     <a href="#link2">SMALL RECIPES!</a>
                     <a href="#link3">MOTIVATING VLOGS</a>
                 </div>
@@ -233,7 +243,7 @@ DROP DOWN CONTENT */
     </nav>
     
     <div id="mySidenav" class="sidenav">
-  <a href="#" id="A1">POMO-TIMER</a>
+  <a href="pomo.html" id="A1">POMO-TIMER</a>
   <a href="#" id="A2">TO-DO LIST</a>
   <a href="#" id="A3">RECORDER</a>
   <a href="library.php" id="A4">LIBRARY</a>

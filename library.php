@@ -49,13 +49,13 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_SESSION['email'])) {
         }
         
         body {
-            background-color: #fce4ec; /* Light pink background */
+            background-color: #eaa2f3; /* Light pink background */
             color: #6a2c70; /* Purple text */
             line-height: 1.6;
         }
         
         .library-header {
-            background-color: #ffd1dc; /* Light pink */
+            background-color: #d399fadd; /* Light pink */
             padding: 20px;
             text-align: center;
             border-bottom: 5px solid #e0f7fa; /* Light cyan */
@@ -63,7 +63,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_SESSION['email'])) {
 
         .library-header h1 {
             font-size: 2.5em;
-            color: #ff69b4; /* Hot pink */
+            color: #310151dd; /* Hot pink */
         }
 
         .library-container {
@@ -137,7 +137,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_SESSION['email'])) {
 <body>
     <div class="library-header">
         <h1>Unicorn Library</h1>
-        <img src="unicorn.png" alt="Unicorn" class="unicorn">
+        <img src="images/download (28).jpeg" alt="Unicorn" class="unicorn">
     </div>
 
     <div class="library-container">
