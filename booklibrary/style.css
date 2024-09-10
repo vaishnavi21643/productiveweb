@@ -1,0 +1,110 @@
+/* body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #FFC1CC, #FFEBB5, #D1C4E9, #B3E5FC, #C8E6C9);
+    background-size: 400% 400%;
+    animation: gradientBG 15s ease infinite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+@keyframes gradientBG {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 55px;
+    width: 300px;
+    text-align: center;
+    margin: 20px;
+}
+
+.form-title {
+    font-size: 24px;
+    color: #FF69B4;
+    margin-bottom: 20px;
+}
+
+.input-group {
+    position: relative;
+    margin-bottom: 20px;
+    right:27px;
+}
+
+.input-group i {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: #FF69B4;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px 10px 10px 30px;
+    border: 1px solid #FF69B4;
+    border-radius: 5px;
+    outline: none;
+}
+
+.input-group label {
+    display: none;
+}
+
+.btn {
+    background: linear-gradient(to right, #FF69B4, #FF1493);
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.btn:hover {
+    background: linear-gradient(to right, #FF1493, #FF69B4);
+}
+
+.or {
+    margin: 20px 0;
+    color: #FF69B4;
+}
+
+.icons i {
+    font-size: 24px;
+    color: #FF69B4;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.links p {
+    color: #FF69B4;
+}
+
+.links button {
+    background: none;
+    border: none;
+    color: #FF69B4;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.recover a {
+    color: #FF69B4;
+    text-decoration: none;
+}
+
+.recover a:hover {
+    text-decoration: underline;
+}
+
+
+
+ */
