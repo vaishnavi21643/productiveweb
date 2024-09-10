@@ -146,17 +146,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="featured-box">
-                        <a href="login.php">
-                            <i class="fa fa-leaf fa-2x"></i>
-                            <div class="text">
-                                <h3>CSS</h3>
-                                Our CSS Tutorial will teach you how to control the style & layout of websites. Complete a series of practice and examination while filling out actual CSS code.
-                            </div>
-                        </a>
-                    </div>
-                </div>
+                
             </div>
         </div>
     </div>
@@ -189,7 +179,7 @@
                 </div>
                 <div class="col-md-4">
                     <div class="featured-box">
-                        <a href="login.php">
+                        <a href="pomodoro/pomo.html">
                             <i class="fa fa-clock-o fa-2x"></i>
                             <div class="text">
                                 <h3>POMODORO</h3>

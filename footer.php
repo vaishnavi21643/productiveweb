@@ -89,19 +89,9 @@
             <div class="clear"></div>
             <!-- CLEAR FLOATS -->
         </div>
-        <!-- <div class="footer2">
-            <div class="container" style="background-color: Black;">
-                <div class="row">
-                    <div class="col-md-6 panel">
-                        <div class="panel-body">
-                            <p class="simplenav">
-                                <a href="index.php">Home</a> | 
-                                <a href="login.php">Login</a> | 
-                                <a href="login.php">Courses</a> |
-                                <a href="contact.php">Feedback</a>
-                            </p>
-                        </div>
-                    </div> -->
+        
+
+        
 
                     
 

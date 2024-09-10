@@ -130,7 +130,7 @@ session_start();
 <body>
     <?php
         include "nav.php";
-        $strconn = mysqli_connect("localhost", "root", "", "project", 3308);
+        $strconn = mysqli_connect("localhost", "root", "", "project");
         if (!$strconn) {
             echo "Connection failed" . mysqli_connect_error();
         } else {}
@@ -154,7 +154,7 @@ session_start();
             </tr>
             <tr>
                 <td><label>Enter your Password:</label></td>
-                <td><input type="password" class="form-control" name="pass" placeholder="Password"></td>
+                <td><input type="password" class="form-control " name="pass" placeholder="Password"></td>
             </tr>
             <tr>
                 <td colspan="2" align="center"><button name="btnsubmit" class="btn btn-block">Submit</button></td>

@@ -113,7 +113,7 @@ nav a {
 <body>
  
     <?php include "./navbar.php";
-    $strconn=mysqli_connect("localhost","root","","project",3308);
+    $strconn=mysqli_connect("localhost","root","","project");
     if(!$strconn)
         echo "Connection failed".mysqli_connect_error();
     else{}
