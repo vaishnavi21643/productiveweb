@@ -8,7 +8,7 @@ session_start();
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="eLearning is a modern and fully responsive Template by WebThemez.">
     <meta name="author" content="webThemez.com">
-    <title>eLearning - Free Educational Responsive Web Template</title>
+    <title>eLearning</title>
     <link rel="favicon" href="assets/images/favicon.png">
     <link rel="stylesheet" media="screen" href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,700">
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
@@ -42,6 +42,40 @@ session_start();
             padding: 60px 0;
             text-align: center;
         }
+
+        form{
+            /* Add a 1px solid border with a light gray color */
+    margin: 20px; /* Add a 20px margin around the form */
+    padding: 20px; /* Add a 20px padding inside the form */
+    
+    
+        }
+
+
+        form input[type="text"], form input[type="password"] {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+form button[type="submit"] {
+    background-color: #680000; /* Dark red */
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    padding: 12px 20px;
+    margin: 10px 0;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+form button[type="submit"]:hover {
+    background-color: #a30000; /* Even darker red */
+    transform: scale(1.05);
+}
+
         
         .form-control {
             border-radius: 10px;
@@ -94,6 +128,7 @@ session_start();
             color: #fff;
             padding: 20px 0;
             text-align: center;
+            margin-top: 150px;
         }
 
         footer#footer .social a {

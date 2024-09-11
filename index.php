@@ -27,6 +27,64 @@
             font-family: 'Open Sans', sans-serif;
         }
 
+        .hero{
+            width: 100%;
+            height: 100vh;
+            background-image: linear-gradient(rgba(12,3,51,0.3),rgba(12,3,51,0.3));
+            position: relative;
+            padding:0 5%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+
+        }
+
+        .content{
+            text-align: center;
+        }
+        .content h1{
+            font-size: 160px;
+            color: #fff;
+            font-weight:600;
+
+        }
+
+        .content a{
+              text-decoration:none;
+              display:inline-block;
+              color:#fff;
+              font-size:24px;
+              border: 2px solid #fff;
+              padding: 14px 70px;
+              border-radius:50px;
+              margin-top:20px;
+        }
+
+        .back-video{
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100vh;
+            object-fit: cover;
+            z-index: -1;
+        }
+
+        @media (min-aspect-ratio: 16/9){
+          .back-video{
+            weight: 100%;
+            height: auto;
+          }
+        }
+
+        @media (max-aspect-ratio: 16/9){
+          .back-video{
+            weight: auto;
+            height: 100%;
+          }
+        }
+
         /* Header */
         header#head {
             background: rgba(0, 0, 0, 0.7);
@@ -93,6 +151,31 @@
     <?php
         include "nav.php";
     ?>
+
+    <div class="hero">
+
+    <video autoplay loop muted plays-inline class="back-video">
+        <source src="book2.mp4" type="video/mp4">
+    </video>
+
+    <div class="content">
+        <h1>Study Routine</h1>
+        <a href="#">Explore</a>
+    </div>
+
+    </div>
+
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   
+  
+
 
     <!-- Header -->
     <header id="head">

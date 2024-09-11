@@ -46,7 +46,8 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-8">
-					<h1>Welcome <?php echo $username;?></h1>
+					<h1>Welcome <?php echo $username;?> : )</h1>
+
 				</div>
 			</div>
 		</div>
@@ -143,7 +144,7 @@
 			<div class="row">
 				<div class="col-md-4">
 					<div class="featured-box">
-					<a href="jarvis\index.html">
+					<a href="../jarvis/index.html">
 						<i class="fa fa-microphone fa-2x"></i>
 						<div class="text">
 							<h3>VOICE ASSISTANT</h3>
@@ -165,7 +166,7 @@
 				</div>
 				<div class="col-md-4">
 					<div class="featured-box">
-					<a href="login.php">
+					<a href="../pomodoro/pomo.html">
 						<i class="fa fa-clock-o fa-2x"></i>
 						<div class="text">
 							<h3>POMODORO</h3>

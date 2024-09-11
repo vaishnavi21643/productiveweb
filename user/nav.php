@@ -42,7 +42,10 @@ session_start();
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav pull-right mainNav">
                     <li class="active"><a href="index.php">Home</a></li>
+                    <li class="active"><a href="contact.php">Feedback</a></li>
+                    <li class="active"><a href="displayinfo/index.html">Animation</a></li>
                     <li><a href="../index.php">Logout</a></li>
+                    
                     <!-- Uncomment the following lines if needed -->
                     <!--
                     <li><a href="fees.php">Fees</a></li>
